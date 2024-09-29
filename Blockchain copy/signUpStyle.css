@@ -1,0 +1,96 @@
+
+input[type=text], input[type=password] {
+         
+  width: 200px;
+  margin: 15px; 
+  padding: 15px;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+  border-radius: 6px;
+  box-shadow: 3px 3px rgb(2, 160, 107);
+  transition: 0.4s;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+  width:350px;
+}
+
+button {
+  background-color: #04AA6D;
+
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  opacity: 0.8;
+  transition: 0.15s;
+}
+
+button a {
+  color: black;
+}
+button:hover {
+  opacity:1;
+}
+
+.container {
+  padding: 16px;
+  margin: 25px auto;
+  width: 500px;
+  background-color: rgb(182, 182, 182);
+  border-radius: 5px;
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+  font-family: sans-serif;
+}
+
+.banner{
+    margin: 0;
+  	padding: 0;
+  	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+@media screen and (min-width: 650px) {
+    header {
+	    position: fixed; 
+	    color: rgb(0, 0, 0);
+	    top: 0;
+	    left: 0;
+	    width: 100%;
+	    display: flex;
+	    justify-content: space-between;
+	    align-items: center;
+	    padding: 10px 65px;
+	    z-index: 100000;
+        transition: 0.5s;
+        background-color: rgb(200, 200, 200);
+    }
+}
+
+@media screen and (max-width: 650px){
+    header {
+	    position: fixed; 
+	    color: rgb(0, 0, 0);
+	    top: 0;
+	    left: 0;
+	    width: 100%;
+	    display: flex;
+	    justify-content: space-between;
+	    align-items: center;
+	    padding: 10px 10px;
+        padding-right: 0px;
+	    z-index: 100000;
+        background-color: rgb(200, 200, 200);
+    }
+    header h1 {
+        font-size: 4vw;
+        padding-right: 10px;
+    }
+} 
