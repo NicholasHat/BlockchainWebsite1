@@ -1,7 +1,0 @@
-Chang:5
-Teddy:11
-Lee:9
-Smith:7
-Gizen:3
-Martha:2
-Bryant:11
