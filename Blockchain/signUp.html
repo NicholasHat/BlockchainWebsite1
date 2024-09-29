@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> VoterSpot Sign Up</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="signUpStyle.css"/>
+        <script src="signUp.js"> </script>
+    </head>
+    <ul class="banner">
+      <li><a href="yourBallots.html">Your Ballots</a></li>
+      <li><a href="yourVotes.html">Your Votes</a></li>
+          <li><a href="signUp.html">Sign In/Sign Up</a></li>
+    </ul>
+
+    <form>
+    <div class="container">
+        <b class="names">Email</b>
+        <br>
+        <input type="text" placeholder="you@example.com" name="email" id="email" required>
+        <br>
+        <b class="names">Password</b>
+        <br>
+        <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+        <br>
+        <b class="names">Repeat Password</b>
+        <br>
+        <input type="password" placeholder="Repeat Password" name="psw-repeat" id="password" required>
+        <br>
+        <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me </input>
+        <button onclick = "dog()">Sign Up!</button>
+        <br>
+        <button onclick="window.location.href='signIn.html'">Already have an account?</a></button>
+        
+    </div>
+    </form>
+    
+    
+</html>
