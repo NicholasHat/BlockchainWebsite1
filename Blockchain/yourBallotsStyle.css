@@ -138,40 +138,13 @@ li a.active,li a:hover{
 	}
 }
 
-#ballotChoices ul {
-	list-style: none;
-	background: whitesmoke;
-}
-
-#ballotChoices ul li {
-	display: inline-block;
-	position: relative;
-}
-
-#ballotChoices ul li a {
-	display: block;
-	padding: 20px 25px;
-	color: pink;
-	text-decoration: none;
-	text-align: center;
-}
-
-#ballotChoices ul li ul.dropdown li {
-	display: block;
-}
-
-#ballotChoices ul li ul.dropdown {
-	width: 100%;
-	background: rgb(255, 198, 198);
-	position: absolute;
-	z-index: 999;
-	display: none;
-}
 
 .dropdown {
+	max-width: 15em;
 	min-width: 15em;
 	position: relative;
 	margin: 2em;
+
 }
 
 .dropdown * {
@@ -250,6 +223,27 @@ li a.active,li a:hover{
 .menu-open {
 	display: block;
 	opacity: 1;
+}
+
+.chartControl {
+	display: flex;
+	justify-content: center;
+}
+
+.startToEnd {
+	background: #2a2f3b;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	border: 2px #2a2f3b solid;
+	border-radius: 0.5em;
+	padding: 1em;
+	height: fit-content;
+	margin: 2em;
+}
+
+.startToEndText {
+
 }
 
 

@@ -102,7 +102,8 @@ function createGraph(ctx, c2tx, type, type2, file) {
         .then(text => {
             let split1 = text.split("\n");
             const split2 = [];
-            for(let i = 0; i<split1.length; i++) {
+            document.getElementById('startToEndText').innerHTML = split1[0];
+            for(let i = 1; i<split1.length; i++) {
                 split2.push(split1[i].split(":"));
             }
 
